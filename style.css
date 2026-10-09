@@ -29,3 +29,21 @@ details p{margin:.6em 0 .2em}
 .btn{display:inline-block;background:var(--gold);color:#2b1704;font-weight:700;text-decoration:none;padding:12px 22px;border-radius:999px}
 footer{margin:56px 0 40px;padding-top:20px;border-top:1px solid var(--line);font-size:14px;color:var(--muted);text-align:center}
 footer a{color:var(--muted)}
+/* marketing page */
+.hero.big{padding:44px 0 6px}
+.hero .icon{width:112px;height:112px;border-radius:26px;box-shadow:0 10px 34px #000a;margin-bottom:18px}
+.badge{display:inline-block;background:#000;color:#fff;text-decoration:none;border:1px solid #888;border-radius:12px;padding:8px 22px 8px 18px;line-height:1.15;text-align:left}
+.badge small{display:block;font-size:11px;letter-spacing:.3px}
+.badge b{font-size:22px}
+.cta-note{font-size:14px;color:var(--muted);margin-top:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin:18px 0}
+.grid .card{margin:0}
+.grid h3{margin:0 0 4px;font-size:17px;color:var(--gold)}
+.grid p{font-size:15.5px}
+.dice{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:16px 0}
+.dice span{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:8px 16px;font-weight:700;color:var(--gold)}
+.band{text-align:center;margin:46px 0 10px;padding:30px 20px;border:1px solid var(--line);border-radius:20px;background:linear-gradient(160deg,#3a1d0d,#1d0e07)}
+.band h2{margin-top:0}
+.center{text-align:center}
+.shots.large img{max-width:230px}
+@media(max-width:480px){header.site b{font-size:16px;line-height:1.2}header.site .wrap{gap:10px}nav{gap:12px;font-size:14px}}
